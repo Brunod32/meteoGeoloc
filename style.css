@@ -1,0 +1,120 @@
+body {
+    background-color: lightblue;
+}
+
+#date {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#inputCity {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+h4 {
+    margin: 30px;
+}
+
+#searchDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#searchDiv,
+#forecastDiv {
+    margin: 20px;
+}
+
+.weatherContainer,
+.weatherForecastContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hoursforecastDiv {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.timeZone {
+    text-align: center;
+}
+
+.weatherZone .bi {
+    font-size: 2em;
+}
+
+.dataDiv {
+    display: flex;
+    gap: 20px;
+    border-top: 2px solid lightgray;
+}
+
+#city .bi {
+    font-size: 2em;
+}
+
+.bi-thermometer-half {
+    font-size: 2em;
+    color: red;
+}
+
+.bi-wind {
+    font-size: 2em;
+    color: grey;
+}
+
+.bi-droplet {
+    font-size: 2em;
+    color: blue;
+}
+
+label {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.weatherZone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 25px;
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .weatherContainer,
+    .weatherForecastContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .hoursforecastDiv {
+        width: 300px;
+    }
+}
