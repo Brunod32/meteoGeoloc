@@ -27,7 +27,7 @@ const apiKey = '7d4a696f4e46055b073d599ec89e157b';
 // Récupérer la position via l'API Geolocalisation
 let localisation = navigator.geolocation.getCurrentPosition(
     function (position) {
-
+console.log(position)
 
         // Appel à l'api openWeather avec ville en paramètre de fonction
         let apiCall = function (lat, lon) {
